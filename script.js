@@ -1,12 +1,26 @@
-var apple = 1;
+var counter = 9;
 var countElement = document.querySelector("#count");
-var secondCount= document.querySelector('#counts');
-var thirdCount= document.querySelector('#countt');
-
 
 function add1(){
-  apple++;
-  countElement.innerText =apple + " like(s)";
-  secondCount.innerText =apple + " like(s)";
-  thirdCount.innerText =apple + " like(s)";
+  counter++;
+  countElement.innerText =counter + " like(s)";
+;
+}
+
+var counter2 =12;
+var countElement2 = document.querySelector("#counts");
+
+function add2(){
+  counter2++;
+  countElement2.innerText =counter2 + " like(s)";
+;
+}
+
+var counter3 = 9;
+var countElement3 = document.querySelector("#countt");
+
+function add3(){
+  counter3++;
+  countElement3.innerText =counter3 + " like(s)";
+;
 }
